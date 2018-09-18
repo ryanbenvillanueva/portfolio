@@ -1,0 +1,70 @@
+/* CSS Reset */
+
+* {
+	margin 0;
+	padding 0;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+/*General Styles*/
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5em;
+}
+
+.jumbotron {
+	background-color: white;
+	text-align: center;
+	margin-top: 25%;
+	height: 100vh;
+}
+
+
+#responsive-image {
+	border-radius: 50%;
+	border: 3px solid #f6ec35;
+}
+
+#about, #skills, #work, #contact {
+	text-align: center;
+}
+
+/*Footer Section Styles*/
+footer {
+	position: static;
+	bottom: 0;
+	width: 100%;
+	background-color: #d11013;
+	text-align: center;
+	color: white;
+}
+
+footer {
+	padding: 1em 0;
+	margin: 1em 0;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	background-color: #f6ec35;
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+/*@media only screen and (min-width: 768px) {}*/
+
+/*Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) {}
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" charset="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>Portfolio</title>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<!-- my favicon -->
+	<link rel="shortcut icon" href="./assets/img/favicon-16x16.png" type="image/x-icon">
+	<!-- google font nunito sans-->
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<!-- Javascript -->
+	<!-- Jquery first then popper then bootstrap js -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- Popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a href="" class="navbar-brand">Ben</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#work" class="nav-link">Work</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>	
+				</ul>
+			</div>	
+		</nav>
+	</header>
+	<div class="container">
+		<section id="welcome">
+			<div class="jumbotron">
+				<div class="welcome-section-img-div">
+					<img class="rounded-circle" id="responsive-image" src="./assets/img/rbsvprofilepic.jpg" alt="A photo of me.">
+				</div>
+				<div class="welcome-section-text-div">
+					<h1 class="display-4">Ryan Ben S. Villanueva</h1>
+					<h2 class="display-5">Web Developer</h2>
+				</div>
+			</div>
+		</section>
+		<main>
+			<section id="about">
+				<div class="jumbotron">
+					<h2 class="display-5">About Me</h2>
+					<p class="lead">Hi, I'm Ryan Ben, an aspiring web developer based in Tarlac City.</p>
+					<p class="lead">Currently, I'm training at Tuitt Coding Bootcamp, learning to code and making it a daily habit.</p>
+				</div>				
+			</section>
+			<section id="skills">
+				<div class="jumbotron">
+					<h2 class="display-5">My Skills</h2>
+					<div>
+						<p>HTML</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 80%">Expert</div>
+						</div>
+						<p>CSS</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 50%">Intermediate</div>
+						</div>
+						<p>Bootstrap</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 25%">Beginner</div>
+						</div>
+					</div>		
+				</div>
+					
+			</section>	
+			<section id="work">
+				<header class="projects-section-text-div">
+					<h2 class="display-5">My Work</h2>
+					<h3 class="display-6">Here are the projects I built.</h3>
+				</header>
+				<div class="projects-container">
+					<div class="rwd-container">
+						<div class="project-tile">
+							<a href="https://rbsvillanueva.github.io/tribute-page/">
+								<img src="https://placeholdit.co//i/320x160?&bg=f6ec35&fc=000000&text=
+								Tribute-page" alt="Survey Form">
+							</a>
+							<p>Tribute Page</p>
+						</div>
+						<div class="project-tile">
+							<a href="https://rbsvillanueva.github.io/survey-form/">
+								<img src="https://placeholdit.co//i/320x160?&bg=f6ec35&fc=000000&text=Survey Form" alt="Survey Form">
+							</a>
+							<p>Survey Form</p>
+						</div>
+						<div class="project-tile">
+							<a href="#">
+								<img src="https://placeholdit.co//i/320x160?&bg=f6ec35&fc=000000&text=Capstone 1" alt="Capstone 1">
+							</a>
+							<p>Capstone 1</p>
+						</div>
+			</section>
+			<section id="contact">
+				<div class="contact-section-contents">
+					<header class="contact-section-text-div">
+						<h2>Contact Me</h2>
+						<h3>Visit my social media pages.</h3>
+					</header>
+					<div class="social-icons">
+						<div id="github">
+							<a href="https://github.com/ryanbenvillanueva" target="_blank">
+								<i class="fab fa-github fa-4x"></i>
+							</a>
+							<h2>Github</h2>
+						</div>
+						<div id="gitlab">
+							<a href="https://gitlab.com/ryanbenvillanueva" target="_blank">
+								<i class="fab fa-gitlab fa-4x"></i>
+							</a>
+							<h2>Gitlab</h2>
+						</div>
+						<div id="freecodecamp">
+							<a href="https://www.freecodecamp.com/rbsvillanueva" target="_blank">
+								<i class="fab fa-free-code-camp fa-4x"></i>
+							</a>
+							<h2>freeCodeCamp</h2>
+						</div>
+						<div id="codepen">
+							<a href="https://codepen.io/RBSVillanueva/" target="_blank">
+								<i class="fab fa-codepen fa-4x"></i>
+							</a>
+							<h2>Codepen</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>	
+	<footer>Coded by
+		<a id="profile-link" href="https://www.github.com/ryanbenvillanueva" target="_blank">Ryan Ben S. Villanueva</a>.</footer>
+</body>
+</html>
