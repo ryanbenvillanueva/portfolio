@@ -1,8 +1,8 @@
 /* CSS Reset */
 
 * {
-	margin 0;
-	padding 0;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Nunito Sans', sans-serif;
 }
@@ -17,18 +17,53 @@
 	text-align: center;
 }
 
+.navbar{
+	background-color: #272822;
+}
+
+h2 {
+	color: #f92c72;
+}
+
+.rounded-circle {
+	border: 5px solid #e6db74;
+}
+
+.orange {
+	background-color: #fd971f;
+}
+
+.css {
+	background-color: #66d9ef;
+}
+.mysql {
+	background-color: #00758f;
+}
+
+.bootstrap{
+	background-color: #602c50;
+}
+
+.js {
+	background-color: #e6db74;
+}
+
+.php {
+	background-color: #4f5b93;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
-  color: #141414;
+  color: #f8f8f2;
   line-height: 1.5em;
-  background-color: #f6ec35;
+  background-color: #75715e;
 }
 
 .jumbotron {
-	background-color: #f2f2f2;
+	background-color: #3e3d32;
 	text-align: center;
 }
 
@@ -40,14 +75,30 @@ body {
 	text-align: center;
 }
 
+.linkedin {
+	color: #0077b5;
+}
+
+.github {
+	color: #6e5494;
+}
+
+.fcc {
+	color: #006400;
+}
+
+.codepen {
+	color: #fcd000;
+}
+
 /*Footer Section Styles*/
 footer {
 	position: static;
 	bottom: 0;
 	width: 100%;
-	background-color: #d11013;
+	background-color: #272822;
 	text-align: center;
-	color: #f2f2f2;
+	color: #f8f8f2;
 }
 
 footer {
@@ -55,13 +106,13 @@ footer {
 }
 footer a {
 	text-decoration: none;
-	color: #f2f2f2;
+	color: #f8f8f2;
 }
 
 footer a:hover {
 	text-decoration: none;
-	color: #141414;
+	color: #272822;
 	font-weight: 700;
-	background-color: #f6ec35;
+	background-color: #e6db74;
 }
 

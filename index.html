@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	<title>Portfolio</title>
 	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 	<!-- personalized css -->
@@ -18,16 +20,20 @@
 	<!-- Javascript -->
 	<!-- Jquery first then popper then bootstrap js -->
 	<!-- JQuery -->
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
 	<!-- Popper -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
 	<!-- Bootstrap JS -->
 	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 </head>
+
 <body>
 	<header>
-		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
-			<a href="index.html" class="navbar-brand">Ben</a>
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+			<a href="index.html" class="navbar-brand"><img src="./assets/img/favicon-16x16.png" alt="My Logo"> Ryan Ben
+				Villanueva</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarContent">
 				<ul class="navbar-nav ml-auto">
@@ -42,9 +48,9 @@
 					</li>
 					<li class="nav-item">
 						<a href="#contact" class="nav-link">Contact</a>
-					</li>	
+					</li>
 				</ul>
-			</div>	
+			</div>
 		</nav>
 	</header>
 	<div class="container">
@@ -57,7 +63,7 @@
 				<br>
 				<div class="welcome-section-text-div">
 					<h1>Ryan Ben S. Villanueva</h1>
-					<h2>Web Developer</h2>
+					<h2>Full Stack Developer</h2>
 				</div>
 			</div>
 		</section>
@@ -67,28 +73,76 @@
 					<h2 class="mb-4">About Me</h2>
 					<p class="lead">Hi, I'm Ryan Ben, an aspiring web developer based in Tarlac City.</p>
 					<p class="lead">Currently, I'm training at Tuitt Coding Bootcamp, learning to code and making it a daily habit.</p>
-				</div>				
+				</div>
 			</section>
 			<section id="skills">
 				<div class="jumbotron">
 					<h2 class="mb-5">My Skills</h2>
 					<div class="container">
-						<p class="lead mb-5">HTML</p>
-						<div class="progress mb-5">
-							<div class="progress-bar" style="width: 80%">Expert</div>
-						</div>						
-						<p class="lead mb-5">CSS</p>
-						<div class="progress mb-5">
-							<div class="progress-bar" style="width: 50%">Intermediate</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5"><i class="fab fa-html5"></i> HTML</p>
+							</div>
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped orange" style="width: 80%"></div>
+							</div>
 						</div>
-						<p class="lead mb-5">Bootstrap</p>
-						<div class="progress mb-5">
-							<div class="progress-bar" style="width: 25%">Beginner</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5"><i class="fab fa-css3-alt"></i>CSS</p>
+							</div>
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped css" style="width: 75%"></div>
+							</div>
 						</div>
-					</div>		
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5">Bootstrap</p>
+							</div>
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped bootstrap" style="width: 70%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5"><i class="fab fa-js-square"></i> JavaScript</p>
+							</div>
+
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped js" style="width: 65%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5">JQuery</p>
+							</div>
+
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped js" style="width: 60%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5"><i class="fab fa-php"></i> PHP</p>
+							</div>
+
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped php" style="width: 60%"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<p class="lead mb-5"><i class="fas fa-database"></i> mySQL</p>
+							</div>
+
+							<div class="col-sm-8 progress mb-5 p-0">
+								<div class="progress-bar-striped mysql" style="width: 60%"></div>
+							</div>
+						</div>
+					</div>
 				</div>
-					
-			</section>	
+
+			</section>
 			<section id="work">
 				<div class="jumbotron">
 					<header class="projects-section-text-div">
@@ -97,39 +151,57 @@
 					</header>
 					<div class="projects-container">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col-lg-4">
 								<div class="project-div">
 									<a href="https://rbsvillanueva.github.io/tribute-page/" target="blank">
-										<img src="https://placeholdit.co//i/300x150?&bg=f6ec35&fc=000000&text=
-										Tribute-page" alt="Survey Form">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=f92672&fc=f8f8f2&text=
+										Tribute-page"
+										 alt="Tribute Page">
 									</a>
-									<p>Tribute Page</p>
+									<p class="my-3">Tribute Page</p>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-lg-4">
 								<div class="project-div">
 									<a href="https://rbsvillanueva.github.io/survey-form/" target="_blank">
-										<img src="https://placeholdit.co//i/300x150?&bg=f6ec35&fc=000000&text=Survey Form" alt="Survey Form">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=fd971f&fc=f8f8f2&text=Survey Form" alt="Survey Form">
 									</a>
-									<p>Survey Form</p>
+									<p class="my-3">Survey Form</p>
 								</div>
-								
+
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-lg-4">
 								<div class="project-div">
 									<a href="https://rbsvillanueva.github.io/portfolio/" target="_blank">
-										<img src="https://placeholdit.co//i/300x150?&bg=f6ec35&fc=000000&text=FCC Portfolio" alt="Portfolio for freeCodeCamp">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=e6db74&fc=272822&text=FCC Portfolio" alt="Portfolio for freeCodeCamp">
 									</a>
-									<p>Portfolio for freeCodeCamp</p>
-								</div>					
+									<p class="my-3">Portfolio for freeCodeCamp</p>
+								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-lg-4">
 								<div class="project-div">
-									<a href="https://ryanbenvillanueva.github.io/foldingbenorigami/">
-										<img src="https://placeholdit.co//i/300x150?&bg=f6ec35&fc=000000&text=FoldingBen Origami" alt="FoldingBen Origami">
+									<a href="https://ryanbenvillanueva.github.io/foldingbenorigami/" target="_blank">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=a6e22e&fc=f8f8f2&text=FoldingBen Origami" alt="FoldingBen Origami">
 									</a>
-									<p>Capstone 1</p>
-								</div>	
+									<p class="my-3">Capstone 1</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4">
+								<div class="project-div">
+									<a href="https://ryanbenvillanueva.github.io/codecatcher/" target="_blank">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=66d9ef&fc=f8f8f2&text=Code Catcher" alt="Code Catcher">
+									</a>
+									<p class="my-3">Code Catcher Game</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4">
+								<div class="project-div">
+									<a href="https://ryanbenvillanueva.github.io/foldingbenorigamishop/" target="_blank">
+										<img class="rounded" src="https://placeholdit.co//i/250x150?&bg=ae81ff&fc=f8f8f2&text=FoldingBen's Origami Shop"
+										 alt="Origami Shop">
+									</a>
+									<p class="my-3">Capstone 2</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -143,37 +215,38 @@
 							<h3 class="mb-5">Visit my social media pages.</h3>
 						</header>
 						<div class="row social-icons">
-							<div id="github" class="col-md-3">
+							<div class="col-md-3">
+								<a href="https://www.linkedin.com/in/ryan-ben-villanueva-9aa571139/" target="_blank">
+									<i class="fab fa-linkedin fa-4x linkedin"></i>
+								</a>
+								<p class="lead my-3 linkedin">Linkedin</p>
+							</div>
+							<div class="col-md-3">
 								<a href="https://github.com/ryanbenvillanueva" target="_blank">
-									<i class="fab fa-github fa-4x"></i>
+									<i class="fab fa-github fa-4x github"></i>
 								</a>
-								<p>Github</p>
+								<p class="lead my-3 github">Github</p>
 							</div>
-							<div id="gitlab" class="col-md-3">
-								<a href="https://gitlab.com/ryanbenvillanueva" target="_blank">
-									<i class="fab fa-gitlab fa-4x"></i>
-								</a>
-								<p>Gitlab</p>
-							</div>
-							<div id="freecodecamp" class="col-md-3">
+							<div class="col-md-3">
 								<a href="https://www.freecodecamp.com/rbsvillanueva" target="_blank">
-									<i class="fab fa-free-code-camp fa-4x"></i>
+									<i class="fab fa-free-code-camp fa-4x fcc"></i>
 								</a>
-								<p>freeCodeCamp</p>
+								<p class="lead my-3 fcc">freeCodeCamp</p>
 							</div>
-							<div id="codepen" class="col-md-3">
+							<div class="col-md-3">
 								<a href="https://codepen.io/RBSVillanueva/" target="_blank">
-									<i class="fab fa-codepen fa-4x"></i>
+									<i class="fab fa-codepen fa-4x codepen"></i>
 								</a>
-								<p>Codepen</p>
+								<p class="lead my-3 codepen">Codepen</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
-	</div>	
+	</div>
 	<footer>Coded by
 		<a id="profile-link" href="https://www.github.com/ryanbenvillanueva" target="_blank">Ryan Ben S. Villanueva</a>.</footer>
 </body>
+
 </html>
