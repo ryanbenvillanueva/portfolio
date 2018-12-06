@@ -52,6 +52,10 @@ h2 {
 	background-color: #4f5b93;
 }
 
+.laravel {
+	background-color: #f55247;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -116,3 +120,7 @@ footer a:hover {
 	background-color: #e6db74;
 }
 
+.img-size {
+	width: 250px;
+	height: 150px;
+}
