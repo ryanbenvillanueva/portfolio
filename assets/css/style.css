@@ -22,7 +22,11 @@
 }
 
 h2 {
-	color: #f92c72;
+	color: #e6db74;
+}
+
+.btn-color {
+	background-color: #e6db74;
 }
 
 .rounded-circle {
