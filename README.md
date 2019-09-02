@@ -6,12 +6,10 @@
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
+_HTML, CSS,  and  Bootstrap_
 
 ### License
 
-*This site is licensed uknder the MIT License.*
+*This site is licensed under the MIT License.*
 
-Copyright (c) 2019 **_Ryan BEn S. Villanueva_**
+Copyright (c) 2019 **_Ryan Ben S. Villanueva_**
